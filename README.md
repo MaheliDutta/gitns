@@ -1,32 +1,3 @@
-## Github Issue Page Clone With React Redux
-
-Running Application : [https://git-issues.netlify.com/](https://git-issues.netlify.com/)  <br />
-
-Packages Used to build this project : 
-- create-react-app
-- react-router
-- redux
-- redux-saga
-- styled-components
-- prop-types
-
-
-Set Up :
-
-```
-1. git clone https://github.com/ankitious/github-issues-page.git
-
-2. yarn install 
-
-3. yarn test
-
-4. yarn start
-
-5. go to http://localhost:3000
-```
-
-By default, it will show facebook's react repository's issues page.
-
-To view some other repositories issue page give query parameter's as owner & repo.
-
- ---> [https://git-issues.netlify.com/?owner=vuejs&repo=vue](https://git-issues.netlify.com/?owner=vuejs&repo=vue)
+## Github Issue Page Clone
+In the project, first, collect open issues from Github’s API and display them in a list. After this, add a pagination control to facilitate navigation across a complete list of issues. If we add React Router, we can navigate directly to a particular page of your choice. we can increase the complexity of the page by including the issue detail page as well.<br>
+Hosting Link : https://issuepagegit.herokuapp.com/
